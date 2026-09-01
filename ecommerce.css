@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    /*border: 1px solid black;*/
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif; 
+}
+.navbar input{
+    padding: 10px;
+    width: 300px;
+    border:0.8px solid grey;
+
+}
+.navbar a button{
+    background-color: rgb(203, 42, 42);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font weight: bold;
+    border-radius: 7px;
+}
+.navbar a button:hover{
+    background-color: rgb(233, 211, 211);
+    color: red;
+    border: 1px solid red;
+}
